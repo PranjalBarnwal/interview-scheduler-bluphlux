@@ -24,7 +24,8 @@ npm install
 ```bash
 npm run dev
 ```
-
+## Assumptions
+Slots available from 12 pm to 6 pm and each of one hour duration 
 
 ## Technologies Used
 - React.js: A JavaScript library for building user interfaces.
