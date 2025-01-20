@@ -104,21 +104,21 @@ const Dashboard = () => {
         <div className="flex gap-4">
           <button
             onClick={() => setIsFilterModalOpen(true)}
-            className="px-4 py-2 bg-white text-black rounded hover:bg-gray-100 transition-colors duration-200"
+            className="px-3 py-1.5 bg-white text-black rounded hover:bg-gray-100 transition-colors duration-200 text-sm sm:px-4 sm:py-2 sm:text-base"
           >
             Filters
           </button>
           <button
             onClick={handleViewSwitch}
-            className="px-4 py-2 bg-white text-black rounded hover:bg-gray-100 transition-colors duration-200"
+            className="px-3 py-1.5 bg-white text-black rounded hover:bg-gray-100 transition-colors duration-200 text-sm sm:px-4 sm:py-2 sm:text-base"
           >
-            {view === "calendar" ? "List View" : "Calendar View"}
+            {view === "calendar" ? "List" : "Calendar"}
           </button>
           <Link
             to="/schedule"
-            className="px-4 py-2 bg-white text-black rounded hover:bg-gray-100 transition-colors duration-200"
+            className="px-3 py-1.5 bg-white text-black rounded hover:bg-gray-100 transition-colors duration-200 text-sm sm:px-2 sm:py-2 sm:text-base"
           >
-            Schedule interview
+            Schedule
           </Link>
         </div>
       </div>
