@@ -15,10 +15,10 @@ This is an interview scheduling application built with React.js, Tailwind CSS, R
 ## How to Run
 
 ```bash
-git clone https://github.com/your-username/interview-scheduler.git
+git clone https://github.com/PranjalBarnwal/interview-scheduler-bluphlux.git
 ```
 ```bash
-cd interview-scheduler 
+cd interview-scheduler-bluphlux 
 npm install
 ```
 ```bash
@@ -34,4 +34,4 @@ npm run dev
 
 
 ## Live URL
-[click here](www.google.com) www.google.com
+[https://interview-scheduler-bluphlux.netlify.app/](https://interview-scheduler-bluphlux.netlify.app/)
